@@ -1,0 +1,11 @@
+.skill-area nav .active{
+    color: red;
+}
+.skill-area nav .active::after{
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(255, 69, 101);
+    display: block;
+}

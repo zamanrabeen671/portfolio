@@ -1,0 +1,11 @@
+.App {
+  background-color: #061420;
+}
+.brand-color{
+  color: white;
+}
+.nav-style:hover{
+  color: orange;
+  font-size: 18px;
+  transition: all .3s ease;
+}

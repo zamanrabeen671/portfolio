@@ -1,0 +1,16 @@
+.card-style{
+    margin: 10px 5px;
+    padding: 10px;
+}
+.btn-margin{
+    margin: 2px 5px;
+}
+.icon-style{
+    color: cyan;
+    margin: 5px;
+}
+.box-style{
+    background-color: #0b1e2d;
+    border-radius: 10px;
+    padding: 10px;
+}

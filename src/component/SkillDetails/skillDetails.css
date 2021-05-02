@@ -1,0 +1,11 @@
+.box-content {
+    background-color: #161633;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.percent-box{
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
