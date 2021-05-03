@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import working from '../../fakedata/projectInfo'
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-import Service from '../Service/Service';
+
 import WorkingDetails from '../WorkingDetails/WorkingDetails';
 const Work = () => {
     const [project, setProject] = useState([]);

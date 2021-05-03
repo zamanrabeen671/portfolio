@@ -7,7 +7,6 @@ import Footer from '../Footer/Footer';
 const About = () => {
     const skillSet = ['JavaScript', 'ES6', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'Rest API', 'vs code', 'problem solving', 'C', 'C++', 'Python', 'Firebase', 'netlify', 'heroku', 'Code Blocks', 'PyCharm'];
     const comfortSkill = ['JavaScript', 'ES6', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'firebase'];
-    const additional = ['Competitive Programming', 'Project Show', 'Arduino']
     return (
 
         <section>
