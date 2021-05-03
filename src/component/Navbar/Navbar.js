@@ -23,7 +23,7 @@ const Navbar = () => {
                                 <Link className="nav-link brand-color nav-style" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link brand-color nav-style" to="/work">Works</Link>
+                                <Link className="nav-link brand-color nav-style" to="/work">Portfolio</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link brand-color nav-style" href="#article-area">Blog</a>

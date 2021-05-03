@@ -7,5 +7,5 @@
 .nav-style:hover{
   color: orange;
   font-size: 18px;
-  transition: all .3s ease;
+  transition: all .5s ease;
 }

@@ -2,10 +2,15 @@ import React from 'react';
 import './Header.css';
 import img from '../../image/my-bg.png';
 import TextAnimation from 'react-animate-text';
+import ParticleBackground from '../../Particles/ParticleBackground';
+
 const Header = () => {
     return (
         <section className="mt-5 pb-5 container">
-            <div className="row brand-color">
+            <div className="row brand-color header-area">
+                <div className="particle-area mb-5">
+                    <ParticleBackground></ParticleBackground>
+                </div>
                 <div className="col-md-6">
                     <div className="mt-5 mb-5">
                         <TextAnimation>
@@ -25,9 +30,10 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="col-md-5 ms-auto">
-                    <img src={img} style={{ width: '400px', height: "350px" }} alt="" />
+                    <img src={img} style={{ width: '400px', height: "350px" }} className="img-fluid" alt="" />
                 </div>
             </div>
+
         </section>
     );
 };

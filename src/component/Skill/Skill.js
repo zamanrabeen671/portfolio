@@ -4,14 +4,14 @@ import SkillsInfo from '../../fakedata/SkillsInfo';
 import SkillDetails from '../SkillDetails/SkillDetails';
 import './Skill.css'
 const Skill = () => {
-    const [skills, setSkills] = useState([]);
+    const [ability, setAbility] = useState([]);
     const [selectSkillType, setSelectSkillType] = useState('web');
     useEffect(() => {
         console.log(SkillsInfo)
-        setSkills(SkillsInfo);
+        setAbility(SkillsInfo);
     }, [])
 
-    const selectedSkill = skills.filter(profession => profession.type === selectSkillType);
+    const selectedSkill = ability.filter(profession => profession.type === selectSkillType);
 
     console.log(selectedSkill);
     return (
@@ -21,13 +21,13 @@ const Skill = () => {
                 <nav>
                     <ul className="nav justify-content-center">
                         <li onClick={() => setSelectSkillType("web")} className="nav-item">
-                            <Link to="web" className={selectSkillType === "web" ? "active nav-link" : "nav-link brand-color"}>WEB</Link>
+                            <Link  className={selectSkillType === "web" ? "active nav-link" : "nav-link brand-color nav-style"}>WEB</Link>
                         </li>
                         <li onClick={() => setSelectSkillType("programming")} className="nav-item">
-                            <Link to="web" className={selectSkillType === "programming" ? "active nav-link" : "nav-link brand-color"}>PROGRAMMING</Link>
+                            <Link  className={selectSkillType === "programming" ? "active nav-link" : "nav-link brand-color nav-style"}>PROGRAMMING</Link>
                         </li>
                         <li onClick={() => setSelectSkillType("tools")} className="nav-item">
-                            <Link to="web" className={selectSkillType === "tools" ? "active nav-link" : "nav-link brand-color"}>TOOLS</Link>
+                            <Link  className={selectSkillType === "tools" ? "active nav-link" : "nav-link brand-color nav-style"}>TOOLS</Link>
                         </li>
                     </ul>
                 </nav>

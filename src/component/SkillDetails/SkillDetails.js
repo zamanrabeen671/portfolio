@@ -1,4 +1,6 @@
 import React from 'react';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import './skillDetails.css'
 const SkillDetails = ({ s }) => {
     console.log(s);
@@ -12,11 +14,16 @@ const SkillDetails = ({ s }) => {
                         </div>
                         <div className="col-2">
                             <div className="percent-box d-flex justify-content-center">
-                                <p>{s.percent1}%</p>
+                                <div>
+                                    <CircularProgressbar value={s.percent1} text={`${s.percent1}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
+
+                                        })} />
+                                </div>
                             </div>
-                        </div>
-                        <div className="progress">
-                            <div className="progress-bar" role="progressbar" style={{ width: `${s.percent1}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent1}%</div>
                         </div>
                     </div>
                 </div>
@@ -26,13 +33,17 @@ const SkillDetails = ({ s }) => {
                             <h3>{s.name2}</h3>
                         </div>
                         <div className="col-2">
-                            <div className="percent-box d-flex justify-content-center ">
-                                <p>{s.percent2}%</p>
-                            </div>
-                        </div>
+                            <div className="percent-box d-flex justify-content-center">
+                                <div>
+                                    <CircularProgressbar value={s.percent2} text={`${s.percent2}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
 
-                        <div className="progress">
-                            <div className="progress-bar" role="progressbar" style={{ width: `${s.percent2}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent2}%</div>
+                                        })} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,11 +57,16 @@ const SkillDetails = ({ s }) => {
                         </div>
                         <div className="col-2">
                             <div className="percent-box d-flex justify-content-center">
-                                <p>{s.percent3}%</p>
+                                <div>
+                                    <CircularProgressbar value={s.percent3} text={`${s.percent3}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
+
+                                        })} />
+                                </div>
                             </div>
-                        </div>
-                        <div className="progress">
-                            <div className="progress-bar" role="progressbar" style={{ width: `${s.percent3}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent3}%</div>
                         </div>
                     </div>
                 </div>
@@ -60,14 +76,19 @@ const SkillDetails = ({ s }) => {
                             <h3>{s.name4}</h3>
                         </div>
                         <div className="col-2">
-                            <div className="percent-box d-flex justify-content-center ">
-                                <p>{s.percent4}%</p>
+                            <div className="percent-box d-flex justify-content-center">
+                                <div>
+                                    <CircularProgressbar value={s.percent4} text={`${s.percent4}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
+
+                                        })} />
+                                </div>
                             </div>
                         </div>
 
-                        <div className="progress">
-                            <div className="progress-bar" role="progressbar" style={{ width: `${s.percent4}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent4}%</div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -81,11 +102,16 @@ const SkillDetails = ({ s }) => {
                         </div>
                         <div className="col-2">
                             <div className="percent-box d-flex justify-content-center">
-                                <p>{s.percent5}%</p>
+                                <div>
+                                    <CircularProgressbar value={s.percent5} text={`${s.percent5}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
+
+                                        })} />
+                                </div>
                             </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style={{ width: `${s.percent5}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent5}%</div>
                         </div>
                     </div>
                 </div>
@@ -95,14 +121,19 @@ const SkillDetails = ({ s }) => {
                             <h3>{s.name6}</h3>
                         </div>
                         <div className="col-2">
-                            <div className="percent-box d-flex justify-content-center ">
-                                <p>{s.percent6}%</p>
+                            <div className="percent-box d-flex justify-content-center">
+                                <div>
+                                    <CircularProgressbar value={s.percent6} text={`${s.percent6}%`}
+                                        styles={buildStyles({
+                                            width: 200, height: 80, pathColor: `orange`,
+                                            textColor: '#F1C40F',
+                                            trailColor: 'black',
+
+                                        })} />
+                                </div>
                             </div>
                         </div>
 
-                        <div className="progress">
-                            <div className="progress-bar" role="progressbar" style={{ width: `${s.percent6}%` }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{s.percent6}%</div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -6,3 +6,10 @@
 .brand-style{
    color: rgb(24, 192, 192);
 }
+.header-area{
+  position: relative;
+  margin-bottom: 90px;
+}
+.particle-area{
+   position: absolute;
+}
