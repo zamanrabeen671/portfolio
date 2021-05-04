@@ -33,7 +33,7 @@ const Navbar = () => {
                                 <Link className="nav-link brand-color nav-style" to="/contact">Contact</Link>
                             </li>
                             <li className="nav-item">
-                                <a href="https://drive.google.com/uc?export=download&amp;id=1KtQdYp5jR7ZGcB92uJoEA4Xc1KAnPC1B" className="btn btn-outline-info">Resume</a>
+                                <a href="https://drive.google.com/uc?export=download&amp;id=140tN0TTAbMx2NSnMo8-JElVWfy88TgVh" className="btn btn-outline-info">Resume</a>
                             </li>
                         </ul>
                     </div>
