@@ -1,3 +1,4 @@
+  
 .circle{
    height: 20px;
    width: 20px;
@@ -8,7 +9,7 @@
 }
 .header-area{
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 .particle-area{
    position: absolute;
