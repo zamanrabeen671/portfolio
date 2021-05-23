@@ -4,7 +4,7 @@ import img from '../../image/my-bg.png';
 import TextAnimation from 'react-animate-text';
 import ParticleBackground from '../../Particles/ParticleBackground';
 import { Link } from 'react-router-dom';
-
+import './Header.css';
 const Headersecond = () => {
     return (
         <section className="mt-5 pb-5 container">

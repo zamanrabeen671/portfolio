@@ -8,9 +8,10 @@
    color: rgb(24, 192, 192);
 }
 .header-area{
-  position: relative;
-  margin-bottom: 50px;
+  position: absolute;
+  top: 0;
+  margin-top: 150px;
 }
 .particle-area{
-   position: absolute;
+   position: relative;
 }

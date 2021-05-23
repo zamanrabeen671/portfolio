@@ -1,0 +1,15 @@
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon{
+    background-color:#e7f8f8;
+}
+@media (max-width: 768px) {
+    .navbar{
+        background-color: #061420;
+        z-index: 1;
+    }
+}
+.nav-container{
+    margin-bottom: 20px;
+ }
