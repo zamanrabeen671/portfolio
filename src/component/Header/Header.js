@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <section className="mt-5 pb-5 container">
+        <section className="mt-5 pb-5 container header-section">
             <div>
                 <div className="particle-area mb-5">
                     <ParticleBackground></ParticleBackground>

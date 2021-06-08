@@ -24,8 +24,8 @@ const ProjectDetails = (props) => {
                             </div>
 
 
-                            <a className="icon-style" href={github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="icon-style" href={liveSite} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faShareSquare} /></a>
+                            <a className="icon-style" href={github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="icon-container" /></a>
+                            <a className="icon-style" href={liveSite} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faShareSquare} className="icon-container" /></a>
                         </div>
                     </div>
 
